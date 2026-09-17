@@ -1,0 +1,5 @@
+{
+  "cache_dependencies": false,
+  "build_command": "npm install && CI=false npm run build && npm install --prefix backend",
+  "start_command": "node backend/src/server.js"
+}
